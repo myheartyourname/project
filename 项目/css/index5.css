@@ -1,0 +1,796 @@
+/*
+* @Author: lenovo
+* @Date:   2017-10-06 00:07:24
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-10-07 20:37:51
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	height: 35px;
+	background: #e7e7e7;
+}
+header main{
+    width: 1240px;
+    height: 35px;
+    background: #e7e7e7;
+    margin: 0 auto;
+}
+.logo{
+	width: 257px;
+	height: 35px;
+	border-right: 1px solid #D6D6D6;
+	float: left;
+}
+.logo a{
+    display: block;
+    width: 128px;
+    height: 35px;
+    background: #fff;
+    float: left;
+}
+.logo a:hover{
+	background: #808080;
+}
+.logo .left2{
+	background: #e7e7e7;
+}
+.logo a img{
+	display: block;
+    width: 128px;
+    height: 35px;
+}
+.sign{
+	width: 120px;
+	height: 35px;
+	float: right;
+}
+.sign a{
+	width: 40px;
+	height: 35px;
+	font-size: 12px;
+	color: #000;
+	line-height: 35px;
+	float: left;
+}
+.sign a:hover{
+	font-weight: bold;
+}
+.sign a img{
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin-top: 7px;
+	float: left;
+}
+.sign a img:hover{
+	transform: scale(1.5,1.5);
+}
+.guanwang{
+	width: 1240px;
+	height: 80px;
+	background: #fff;
+	margin: 0 auto;
+}
+.guanwang a{
+	display: block;
+	width: 1240px;
+	height: 80px;
+}
+.guanwang a img{
+	display: block;
+	width: 204px;
+	height: 100%;
+	margin: 0 auto;
+}
+nav{
+	width: 100%;
+	height: 40px;
+	background: #414141;
+}
+nav ul{
+	width: 1240px;
+	height: 40px;
+	margin: 0 auto;
+}
+nav ul li{
+	width: 95px;
+	height: 40px;
+	margin: 0 30px;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	float: left;
+}
+nav ul li:first-child{
+	margin-left: 0;
+	background: #C71F2C;
+}
+nav ul li:hover{
+	background: #fff;
+	color: #000;
+}
+.juti{
+	width: 1240px;
+	height: auto;
+	margin: 0 auto;
+}
+.start{
+	width: 1240px;
+	height: 139px;
+}
+.start img{
+	width: 1240px;
+	height: 139px;
+}
+.start2{
+	width: 1240px;
+	height: 104px;
+}
+.start2 img{
+	width: 1240px;
+	height: 104px;
+}
+.tian1{
+	width: 1240px;
+	height: 412px;
+}
+.tian1 li{
+	float: left;
+}
+.tian1 .t1{
+	width: 665px;
+	height: 412px;
+}
+.tian1 .t1 a{
+	display: block;
+	width: 665px;
+	height: 412px;
+}
+.tian1 .t1 a img{
+	display: block;
+	width: 665px;
+	height: 412px;
+}
+.tian1 .t2{
+	width: 575px;
+	height: 412px;
+}
+.tian1 .t2 a{
+	display: block;
+	width: 575px;
+	height: 412px;
+}
+.tian1 .t2 a img{
+	display: block;
+	width: 575px;
+	height: 412px;
+}
+.tian2{
+	width: 1240px;
+	height: 457px;
+}
+.tian2 li{
+	float: left;
+}
+.tian2 .t1{
+	width: 664px;
+	height: 457px;
+}
+.tian2 .t1 a{
+	display: block;
+	width: 664px;
+	height: 457px;
+}
+.tian2 .t1 a img{
+	display: block;
+	width: 664px;
+	height: 457px;
+}
+.tian2 .t2{
+	width: 576px;
+	height: 457px;
+}
+.tian2 .t2 a{
+	display: block;
+	width: 576px;
+	height: 457px;
+}
+.tian2 .t2 a img{
+	display: block;
+	width: 576px;
+	height: 457px;
+}
+.yuan{
+	width: 1240px;
+	height: 717px;
+	background: url('../img/yuanback.jpg') no-repeat;
+}
+.yuanx{
+	width: 648px;
+	height: 611px;
+	margin: 0 auto;
+	position: relative;
+}
+.yuanx img{
+	width: 648px;
+	height: 611px;
+}
+.yuanx li{
+	width: 186px;
+	height: 25px;
+	position: absolute;
+	top: 60px;
+	left: 48px;
+}
+.yuanx li a{
+	display: block;
+	width: 157px;
+	height: 25px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.yuanx li a div{
+	width: 314px;
+	height: 25px;
+	position: absolute;
+	top: 0;
+	left: -157px;
+}
+.yuanx li a div img{
+	width: 314px;
+	height: 25px;
+}
+.halo{
+	width: 17px;
+	height: 18px;
+	float: right;
+	margin-top: 4px;
+}
+.halo img{
+	width: 17px;
+	height: 18px;
+}
+.yuanx .zuo2{
+	top: 170px;
+	left: -70px;
+}
+.yuanx .zuo3{
+	top: 272px;
+	left: -150px;
+}
+.yuanx .zuo4{
+	top: 360px;
+	left: -120px;
+}
+.yuanx .zuo5{
+	top: 425px;
+	left: 50px;
+}
+.yuanx .zuo6{
+	top: 536px;
+	left: 10px;
+}
+.yuanx .zuo7{
+	width: 198px;
+	top: 506px;
+	left: 315px;
+}
+.yuanx .zuo7 a{
+	width: 167px;
+	float: right;
+}
+.yuanx .zuo7 a div{
+	width: 334px;
+	left: 0;
+}
+.yuanx .zuo7 a div img{
+	width: 334px;
+}
+.yuanx .zuo7 .halo{
+	float: left;
+	right: 200px;
+}
+.yuanx .zuo8{
+	width: 198px;
+	top: 380px;
+	left: 517px;
+}
+.yuanx .zuo8 a{
+	width: 167px;
+	float: right;
+}
+.yuanx .zuo8 a div{
+	width: 334px;
+	left: 0;
+}
+.yuanx .zuo8 a div img{
+	width: 334px;
+}
+.yuanx .zuo8 .halo{
+	float: left;
+	right: 200px;
+}
+.yuanx .zuo9{
+	width: 198px;
+	top: 337px;
+	left: 402px;
+}
+.yuanx .zuo9 a{
+	width: 167px;
+	float: right;
+}
+.yuanx .zuo9 a div{
+	width: 334px;
+	left: 0;
+}
+.yuanx .zuo9 a div img{
+	width: 334px;
+}
+.yuanx .zuo9 .halo{
+	float: left;
+	right: 200px;
+}
+.yuanx .zuo10{
+	width: 198px;
+	top: 240px;
+	left: 527px;
+}
+.yuanx .zuo10 a{
+	width: 167px;
+	float: right;
+}
+.yuanx .zuo10 a div{
+	width: 334px;
+	left: 0;
+}
+.yuanx .zuo10 a div img{
+	width: 334px;
+}
+.yuanx .zuo10 .halo{
+	float: left;
+	right: 200px;
+}
+.yuanx .zuo11{
+	width: 198px;
+	top: 200px;
+	left: 407px;
+}
+.yuanx .zuo11 a{
+	width: 167px;
+	float: right;
+}
+.yuanx .zuo11 a div{
+	width: 334px;
+	left: 0;
+}
+.yuanx .zuo11 a div img{
+	width: 334px;
+}
+.yuanx .zuo11 .halo{
+	float: left;
+	right: 200px;
+}
+.yuanx .zuo12{
+	width: 198px;
+	top: 110px;
+	left: 452px;
+}
+.yuanx .zuo12 a{
+	width: 167px;
+	float: right;
+}
+.yuanx .zuo12 a div{
+	width: 334px;
+	left: 0;
+}
+.yuanx .zuo12 a div img{
+	width: 334px;
+}
+.yuanx .zuo12 .halo{
+	float: left;
+	right: 200px;
+}
+.xiayue{
+	width: 1240px;
+	height: 135px;
+	margin: 0 auto;
+}
+.xiayue a{
+	display: block;
+	width: 1240px;
+	height: 135px;
+}
+.xiayue a img{
+	display: block;
+	width: 1240px;
+	height: 135px;
+}
+.yue1{
+	width: 1240px;
+	height: 389px;
+	margin: 0 auto;
+}
+.yue1 a{
+	display: block;
+	width: 708px;
+	height: 389px;
+	float: left;
+}
+.yue1 a img{
+	display: block;
+	width: 708px;
+	height: 389px;
+}
+.yue1 div{
+	width: 532px;
+	height: 389px;
+	float: right;
+	position: relative;
+}
+.yue1 div img{
+	width: 532px;
+	height: 389px;
+}
+.yue1 div .float{
+    width: 310px;
+    height: auto;
+    position: absolute;
+    left: 20px;
+    bottom: 80px;
+    text-align: center;
+}
+.yue1 div .float h1{
+	width: 310px;
+	font-size: 20px;
+	color: #414141;
+	font-weight: bold;
+	line-height: 34px;
+	margin-bottom: 30px;
+}
+.yue1 div .float p{
+	width: 310px;
+	margin: 16px auto;
+	font-size: 16px;
+	line-height: 21px;
+}
+.yue1 div .float ul{
+	width: 310px;
+	height: 60px;
+	padding-left: 40px;
+	margin: 16px auto;
+}
+.yue1 div .float ul li{
+	width: 33px;
+	height: 30px;
+	margin-right: 12px;
+	font-size: 15px;
+	float: left;
+}
+.yue1 div .float ul li a{
+	display: block;
+	width: 33px;
+	height: 20px;
+	color: #414141;
+	border-bottom: 1px solid #414141;
+}
+.yue1 div .float ul li a:hover{
+	border-bottom: 3px solid #414141;
+	font-weight: bold;
+}
+.yue2{
+	width: 1240px;
+	height: 461px;
+}
+.yue2 div{
+	width: 440px;
+	height: 461px;
+	float: left;
+	position: relative;
+}
+.yue2 div img{
+	width: 440px;
+	height: 461px;
+}
+.yue2 div .float{
+    width: 310px;
+    height: auto;
+    position: absolute;
+    left: 85px;
+    bottom: 120px;
+    text-align: center;
+}
+.yue2 div .float h1{
+	width: 310px;
+	font-size: 20px;
+	color: #414141;
+	font-weight: bold;
+	line-height: 34px;
+	margin-bottom: 30px;
+}
+.yue2 div .float p{
+	width: 310px;
+	margin: 16px auto;
+	font-size: 16px;
+	line-height: 21px;
+}
+.yue2 div .float ul{
+	width: 310px;
+	height: 60px;
+	padding-left: 40px;
+	margin: 16px auto;
+}
+.yue2 div .float ul li{
+	width: 33px;
+	height: 30px;
+	margin-right: 12px;
+	font-size: 15px;
+	float: left;
+}
+.yue2 div .float ul li a{
+	display: block;
+	width: 33px;
+	height: 20px;
+	color: #414141;
+	border-bottom: 1px solid #414141;
+}
+.yue2 div .float ul li a:hover{
+	border-bottom: 3px solid #414141;
+	font-weight: bold;
+}
+.yue2 a{
+	display: block;
+	width: 800px;
+	height: 461px;
+	float: right;
+}
+.yue2 a img{
+	display: block;
+	width: 800px;
+	height: 461px;
+}
+.yue3{
+	width: 1240px;
+	height: 555px;
+	margin: 0 auto;
+}
+.yue3 a{
+	display: inline-block;
+	width: 670px;
+	height: 555px;
+	float: left;
+}
+.yue3 a img{
+	display: block;
+	width: 670px;
+	height: 555px;
+}
+.yue3 div{
+	width: 570px;
+	height: 555px;
+	float: right;
+	position: relative;
+}
+.yue3 div img{
+	width: 570px;
+	height: 555px;
+}
+.yue3 div .float{
+    width: 310px;
+    height: auto;
+    position: absolute;
+    left: 119px;
+    bottom: 210px;
+    text-align: center;
+}
+.yue3 div .float h1{
+	width: 310px;
+	font-size: 20px;
+	color: #414141;
+	font-weight: bold;
+	line-height: 34px;
+	margin-bottom: 30px;
+}
+.yue3 div .float p{
+	width: 310px;
+	margin: 16px auto;
+	font-size: 16px;
+	line-height: 21px;
+}
+.yue1 div .float ul{
+	width: 310px;
+	height: 60px;
+	padding-left: 40px;
+	margin: 16px auto;
+}
+.yue3 div .float ul li{
+	width: 33px;
+	height: 30px;
+	margin-right: 12px;
+	font-size: 15px;
+	float: left;
+}
+.yue3 div .float ul li a{
+	display: block;
+	width: 33px;
+	height: 20px;
+	color: #414141;
+	border-bottom: 1px solid #414141;
+}
+.yue3 div .float ul li a:hover{
+	border-bottom: 3px solid #414141;
+	font-weight: bold;
+}
+.fuwu{
+	width: 1240px;
+	height: 140px;
+	border-bottom: 1px solid #DADADA;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	margin: 0 auto;
+}
+.fuwu ul{
+	width: 1240px;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+}
+.fuwu ul li{
+	width: 300px;
+	height: 70px;
+	float: left;
+}
+.fuwu ul li img{
+	width: 97px;
+	height: 70px;
+	float: left;
+}
+.fuwu ul li div{
+    width: 203px;
+    height: 64px;
+    padding-top: 12px;
+    margin-left: 97px;
+    font-size: 20px;
+}
+.fuwu ul li div span{
+	font-size: 14px;
+}
+.footer{
+	width: 1240px;
+	height: 210px;
+	margin: 50px auto;
+}
+.fleft{
+	width: 197px;
+	height: 97px;
+	float: left;
+}
+.fleft a{
+	display: block;
+	width: 197px;
+	height: 42px;
+}
+.fleft img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.guanzhu{
+    width: 197px;
+    height: 31px;
+    margin-top: 30px;
+    line-height: 31px;
+}
+.guanzhu span{
+	display: block;
+    font-size: 16px;
+    color: #000;
+    margin-right: 20px;
+    float: left;
+}
+.guanzhu a{
+	display: block;
+	width: 33px;
+	height: 31px;
+	margin-right: 15px;
+	float: left;
+}
+.guanzhu a img{
+	display: block;
+	width: 33px;
+	height: 31px;
+}
+.fcenter{
+    width: auto;
+    height: auto;
+    float: left;
+}
+.fcenter ul{
+	width: 185px;
+	height: auto;
+	font-size: 16px;
+	color: #000;
+    text-align: center;
+	padding: 0 60px;
+	border-right: 1px solid #EBEBEB;
+	float: left;
+}
+.fcenter ul p{
+    margin-bottom: 30px;
+}
+.fcenter ul li{
+    line-height: 30px;
+    font-size: 14px;
+    color: #414141;
+}
+.fright{
+    width: auto;
+    height: auto;
+    float: right;
+}
+.fright div{
+	width: 120px;
+	height: auto;
+	float: left;
+	margin-left: 30px;
+}
+.fright div img{
+	display: block;
+	width: 120px;
+	height: 120px;
+	margin-bottom: 10px;
+}
+.fright div p{
+	font-size: 14px;
+	text-align: center;
+	line-height: 19px;
+}
+.weibu{
+	width: 100%;
+	height: 45px;
+	background: #414141;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	line-height: 45px;
+}
+aside{
+	width: 45px;
+	height: 151px;
+	position: fixed;
+    bottom: 45px;
+    right: 0;
+    margin-right: 5px;
+}
+aside a{
+	display: block;
+	width: 45px;
+	height: 45px;
+	background: #969696;
+	border-radius: 5px;
+	margin-bottom: 8px;
+	overflow: hidden;
+}
+aside a:last-child{
+	margin-bottom: 0;
+}
+aside a:hover{
+	background: #414141;
+}
+aside a img{
+	display: block;
+	width: 40px;
+	height: 40px;
+	margin-top: 2.5px;
+	margin-left: 2.0px;
+}
